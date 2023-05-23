@@ -9,6 +9,9 @@ import fireFliesFragmentShaders from './shaders/fireFlies/fragment.glsl'
 
 import portalVertexShader from './shaders/Portal/vertex.glsl'
 import portalFragmentShaders from './shaders/Portal/fragment.glsl'
+import { inject } from '@vercel/analytics';
+ 
+inject();
 
 
 /**
